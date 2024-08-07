@@ -3,9 +3,132 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bundles</title>
+    <style>
+        /* Basic styling for the navigation bar */
+        nav {
+            background-color: #333;
+            overflow: hidden;
+        }
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+        nav ul li {
+            display: inline;
+        }
+        nav ul li a {
+            display: inline-block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+
+        /* Styling for the banner image */
+        .banner {
+            width: 100%;
+            height: 300px; /* Adjust the height as needed */
+            background: url('https://static.wikia.nocookie.net/valorant/images/7/70/Featured_Store.png/revision/latest?cb=20230808110307') no-repeat center center;
+            background-size: cover;
+        }
+
+        /* Styling for the table */
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid #ddd;
+            padding: 8px;
+            text-align: left;
+        }
+        th {
+            background-color: #f4f4f4;
+        }
+        tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+    </style>
 </head>
 <body>
-    
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Bundle-only.html">Bundles</a></li>
+            <li><a href="contact-us.html">Contact Us</a></li>
+        </ul>
+    </nav>
+    <div class="banner"></div>
+    <p>
+        Bundles are collections of cosmetics that can either be usually bought individually or all together for a reduced bundle price. Most bundles are for new cosmetic collections when they are first released into the game, though others, such as the Run It Back and Give Back collections, contain previously released cosmetics.
+
+        Each bundle will always contain weapon skins and as usually as standard comes with a total of five. Some will also contain buddies, player cards, and sprays, and as standard comes with a total of one each.
+        
+        If choosing to buy as a bundle, some of the cosmetics are either discounted or become free. For bundles with a melee, the bundle price is equal to the total cost of the gun skins, and any sprays, buddies, and cards are given for free (though some bundles with a non-standard amount of accessories may only be discounted instead of offering them for free). For bundles without a melee, all weapons receive a discount of around 33% off when contributing to the bundle price.
+        
+        All bundles are only available for a limited time of about one to three weeks. After they are retired from the store, players will no longer be able to obtain any buddies, player cards, or sprays that came from that bundle. Weapon skins however can still become available (excluding limited edition bundles) by other means through the store's daily offers, a Night.Market, or special bundles like the Run It Back and Give Back bundles.
+    </p>
+    <table>
+        <thead>
+            <tr>
+                <th>Bundle types</th>
+                <th>Bundle Content</th>
+                <th>Bundle Price</th>
+                <th>Discounted Price</th>
+                <th>Content discounted</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Select</td>
+                <td>5 gun skins</td>
+                <td>2,930</td>
+                <td>~33% off contents in bundle</td>
+                <td>N/A</td>
+            </tr>
+            <tr>
+                <td>Deluxe</td>
+                <td>5 gun skins</td>
+                <td>6,375</td>
+                <td>4,270</td>
+                <td>~33% off contents in bundle</td>
+            </tr>
+            <tr>
+                <td>Deluxe</td>
+                <td>4 gun skins + 1 melee skin + 1-2 of each accessories (if any)</td>
+                <td>7,650 - 9,150</td>
+                <td>5,100</td>
+                <td>Free melee skin + free accessories (if any)</td>
+            </tr>
+            <tr>
+                <td>Premium</td>
+                <td>4 gun skins + 1 melee skin + 1-2 of each accessories (if any)</td>
+                <td>10,650 - 13,625</td>
+                <td>7,100</td>
+                <td>Free melee skin + free accessories (if any)</td>
+            </tr>
+            <tr>
+                <td>Exclusive</td>
+                <td>4 gun skins at Valorant Points 2,175 each + 1 melee skin + accessories</td>
+                <td>13,850 - 14,600</td>
+                <td>8,700</td>
+                <td>Free melee skin + free accessories</td>
+            </tr>
+            <tr>
+                <td>Ultra</td>
+                <td>4 gun skins at Valorant Points 2,475 each + 1 melee skin + accessories</td>
+                <td>16,025 - 19,400</td>
+                <td>9,900</td>
+                <td>Free melee skin + free accessories</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>
